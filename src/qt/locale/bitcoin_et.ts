@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Bitcoin</source>
-        <translation>Bitcoinist</translation>
+        <source>About Betacoin</source>
+        <translation>Betacoinist</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoini&lt;/b&gt; versioon</translation>
+        <source>&lt;b&gt;Betacoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Betacoini&lt;/b&gt; versioon</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,7 +34,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+0"/>
-        <source>The Bitcoin developers</source>
+        <source>The Betacoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -67,8 +67,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Maksete saamiseks kasutatavad Bitcoini aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
+        <source>These are your Betacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Maksete saamiseks kasutatavad Betacoini aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,7 +82,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Bitcoin address</source>
+        <source>Sign a message to prove you own a Betacoin address</source>
         <translation>Allkirjasta sõnum, et tõestada Bitconi aadressi olemasolu.</translation>
     </message>
     <message>
@@ -107,8 +107,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Bitcoini aadressiga.</translation>
+        <source>Verify a message to ensure it was signed with a specified Betacoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Betacoini aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Bitcoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+        <source>These are your Betacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu Betacoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA BITCOINID&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BETACOINS&lt;/b&gt;!</source>
+        <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA BETACOINID&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista bitcoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
+        <source>Betacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your betacoins from being stolen by malware infecting your computer.</source>
+        <translation>Betacoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista betacoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Bitcoin</source>
-        <translation>Kuva info Bitcoini kohta</translation>
+        <source>Show information about Betacoin</source>
+        <translation>Kuva info Betacoini kohta</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Saada münte Bitcoini aadressile</translation>
+        <source>Send coins to a Betacoin address</source>
+        <translation>Saada münte Betacoini aadressile</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Muuda Bitcoini seadeid</translation>
+        <source>Modify configuration options for Betacoin</source>
+        <translation>Muuda Betacoini seadeid</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Betacoin</source>
+        <translation>Betacoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Bitcoin</source>
-        <translation>%Bitcoinist</translation>
+        <source>&amp;About Betacoin</source>
+        <translation>%Betacoinist</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Bitcoini aadressiga</translation>
+        <source>Sign messages with your Betacoin addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Betacoini aadressiga</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Bitcoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified Betacoin addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Betacoini aadressiga</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+47"/>
-        <source>Bitcoin client</source>
-        <translation>Bitcoini klient</translation>
+        <source>Betacoin client</source>
+        <translation>Betacoini klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktiivne ühendus Bitcoini võrku</numerusform><numerusform>%n aktiivset ühendust Bitcoini võrku</numerusform></translation>
+        <source>%n active connection(s) to Betacoin network</source>
+        <translation><numerusform>%n aktiivne ühendus Betacoini võrku</numerusform><numerusform>%n aktiivset ühendust Betacoini võrku</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,8 +655,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu Bitcoini aadress või vigased URI parameetrid.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Betacoin address or malformed URI parameters.</source>
+        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu Betacoini aadress või vigased URI parameetrid.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Ilmnes kriitiline tõrge. Bitcoin suletakse turvakaalutluste tõttu.</translation>
+        <source>A fatal error occurred. Betacoin can no longer continue safely and will quit.</source>
+        <translation>Ilmnes kriitiline tõrge. Betacoin suletakse turvakaalutluste tõttu.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>Sisestatud aadress &quot;%1&quot; ei ole Bitcoinis kehtiv.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Betacoin address.</source>
+        <translation>Sisestatud aadress &quot;%1&quot; ei ole Betacoinis kehtiv.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Bitcoin-Qt</source>
-        <translation>Bitcoini-Qt</translation>
+        <source>Betacoin-Qt</source>
+        <translation>Betacoini-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -818,13 +818,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Käivita Bitcoin süsteemi logimisel.</translation>
+        <source>Automatically start Betacoin after logging in to the system.</source>
+        <translation>Käivita Betacoin süsteemi logimisel.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;Start Bitcoin sisselogimisel</translation>
+        <source>&amp;Start Betacoin on system login</source>
+        <translation>&amp;Start Betacoin sisselogimisel</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -843,8 +843,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Bitcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the Betacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Betacoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -853,8 +853,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Kasuta Bitcoini võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
+        <source>Connect to the Betacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Kasuta Betacoini võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -928,8 +928,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>Kasutajaliidese keele valimise koht. Valik rakendub Bitcoini käivitamisel.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Betacoin.</source>
+        <translation>Kasutajaliidese keele valimise koht. Valik rakendub Betacoini käivitamisel.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -943,8 +943,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>Kuvada Bitcoini aadress tehingute loetelus või mitte.</translation>
+        <source>Whether to show Betacoin addresses in the transaction list or not.</source>
+        <translation>Kuvada Betacoini aadress tehingute loetelus või mitte.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -995,8 +995,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation>Tehtud valik rakendub Bitcoini käivitamisel.</translation>
+        <source>This setting will take effect after restarting Betacoin.</source>
+        <translation>Tehtud valik rakendub Betacoini käivitamisel.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1014,7 +1014,7 @@ Aadress: %4⏎</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Betacoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1068,8 +1068,8 @@ Aadress: %4⏎</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Bitcoin ei käivitu: vajuta-maksa toiming</translation>
+        <source>Cannot start betacoin: click-to-pay handler</source>
+        <translation>Betacoin ei käivitu: vajuta-maksa toiming</translation>
     </message>
 </context>
 <context>
@@ -1218,8 +1218,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation>Näita kehtivate käsurea valikute kuvamiseks Bitcoini-Qt abiteksti</translation>
+        <source>Show the Betacoin-Qt help message to get a list with possible Betacoin command-line options.</source>
+        <translation>Näita kehtivate käsurea valikute kuvamiseks Betacoini-Qt abiteksti</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1238,13 +1238,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Bitcoin - Debug window</source>
-        <translation>Bitcoin - debugimise aken</translation>
+        <source>Betacoin - Debug window</source>
+        <translation>Betacoin - debugimise aken</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoini tuumik</translation>
+        <source>Betacoin Core</source>
+        <translation>Betacoini tuumik</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1253,8 +1253,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ava Bitcoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
+        <source>Open the Betacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ava Betacoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1263,8 +1263,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Teretulemast Bitcoini RPC konsooli.</translation>
+        <source>Welcome to the Betacoin RPC console.</source>
+        <translation>Teretulemast Betacoini RPC konsooli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1406,8 +1406,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Tehingu saaja aadress (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to send the payment to (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
+        <translation>Tehingu saaja aadress (nt: JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1447,8 +1447,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Sisesta Bitcoini aadress (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
+        <translation>Sisesta Betacoini aadress (nt: JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
     </message>
 </context>
 <context>
@@ -1470,8 +1470,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Sõnumi signeerimise aadress (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to sign the message with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
+        <translation>Sõnumi signeerimise aadress (nt: JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1512,8 +1512,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Allkirjasta sõnum Bitcoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this Betacoin address</source>
+        <translation>Allkirjasta sõnum Betacoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1543,13 +1543,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Aadress, millega sõnum allkirjastati (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address the message was signed with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
+        <translation>Aadress, millega sõnum allkirjastati (nt: JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Bitcoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified Betacoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Betacoini aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1564,8 +1564,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Sisesta Bitcoini aadress (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
+        <translation>Sisesta Betacoini aadress (nt: JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1574,8 +1574,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Bitcoin signature</source>
-        <translation>Sisesta Bitcoini allkiri</translation>
+        <source>Enter Betacoin signature</source>
+        <translation>Sisesta Betacoini allkiri</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1647,8 +1647,8 @@ Aadress: %4⏎</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Bitcoin developers</source>
+        <location filename="../splashscreen.cpp" line="+25"/>
+        <source>The Betacoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2186,8 +2186,8 @@ Aadress: %4⏎</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Bitcoin version</source>
-        <translation>Bitcoini versioon</translation>
+        <source>Betacoin version</source>
+        <translation>Betacoini versioon</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2196,8 +2196,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or bitcoind</source>
-        <translation>Saada käsklus -serverile või bitcoindile</translation>
+        <source>Send command to -server or betacoind</source>
+        <translation>Saada käsklus -serverile või betacoindile</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2216,13 +2216,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Täpsusta sätete fail (vaikimisi: bitcoin.conf)</translation>
+        <source>Specify configuration file (default: betacoin.conf)</source>
+        <translation>Täpsusta sätete fail (vaikimisi: betacoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Täpsusta PID fail (vaikimisi: bitcoin.pid)</translation>
+        <source>Specify pid file (default: betacoind.pid)</source>
+        <translation>Täpsusta PID fail (vaikimisi: betacoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2299,24 +2299,24 @@ Aadress: %4⏎</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=betacoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Betacoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, sul tuleb rpcpassword määrata seadete failis:
 %s
 Soovitatav on kasutada järgmist juhuslikku parooli:
-rpcuser=bitcoinrpc
+rpcuser=betacoinrpc
 rpcpassword=%s
 (seda parooli ei pea meeles pidama)
 Kasutajanimi ning parool EI TOHI kattuda.
 Kui faili ei leita, loo see ainult-omaniku-loetavas failiõigustes .
 Soovitatav on seadistada tõrgete puhul teavitus;
-nt: alertnotify=echo %%s | email -s &quot;Bitcoin Alert&quot; admin@foo.com
+nt: alertnotify=echo %%s | email -s &quot;Betacoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2331,8 +2331,8 @@ nt: alertnotify=echo %%s | email -s &quot;Bitcoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on Bitcoin juba avatud.</translation>
+        <source>Cannot obtain a lock on data directory %s. Betacoin is probably already running.</source>
+        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on Betacoin juba avatud.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2376,8 +2376,8 @@ nt: alertnotify=echo %%s | email -s &quot;Bitcoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis Bitcoin ei tööta korralikult</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Betacoin will not work properly.</source>
+        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis Betacoin ei tööta korralikult</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2626,8 +2626,8 @@ nt: alertnotify=echo %%s | email -s &quot;Bitcoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL valikud: (vaata Bitcoini Wikist või SSL sätete juhendist)</translation>
+        <source>SSL options: (see the Betacoin Wiki for SSL setup instructions)</source>
+        <translation>SSL valikud: (vaata Betacoini Wikist või SSL sätete juhendist)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2816,13 @@ nt: alertnotify=echo %%s | email -s &quot;Bitcoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab Bitcoini uusimat versiooni</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Betacoin</source>
+        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab Betacoini uusimat versiooni</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita Bitcoin</translation>
+        <source>Wallet needed to be rewritten: restart Betacoin to complete</source>
+        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita Betacoin</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2881,8 +2881,8 @@ nt: alertnotify=echo %%s | email -s &quot;Bitcoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. Bitcoin juba töötab.</translation>
+        <source>Unable to bind to %s on this computer. Betacoin is probably already running.</source>
+        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. Betacoin juba töötab.</translation>
     </message>
     <message>
         <location line="+64"/>

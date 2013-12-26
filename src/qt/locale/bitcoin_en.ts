@@ -5,13 +5,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Bitcoin</source>
-        <translation>About Bitcoin</translation>
+        <source>About Betacoin</source>
+        <translation>About Betacoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;Betacoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Betacoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -35,8 +35,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Bitcoin developers</source>
-        <translation>The Bitcoin developers</translation>
+        <source>The Betacoin developers</source>
+        <translation>The Betacoin developers</translation>
     </message>
 </context>
 <context>
@@ -68,8 +68,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your Betacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your Betacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -83,8 +83,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation>Sign a message to prove you own a Bitcoin address</translation>
+        <source>Sign a message to prove you own a Betacoin address</source>
+        <translation>Sign a message to prove you own a Betacoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -108,8 +108,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation>Verify a message to ensure it was signed with a specified Bitcoin address</translation>
+        <source>Verify a message to ensure it was signed with a specified Betacoin address</source>
+        <translation>Verify a message to ensure it was signed with a specified Betacoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -123,8 +123,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Betacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Betacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -249,8 +249,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BETACOINS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BETACOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -276,8 +276,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</translation>
+        <source>Betacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your betacoins from being stolen by malware infecting your computer.</source>
+        <translation>Betacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your betacoins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -375,8 +375,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Show information about Bitcoin</source>
-        <translation>Show information about Bitcoin</translation>
+        <source>Show information about Betacoin</source>
+        <translation>Show information about Betacoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,13 +420,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-341"/>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Send coins to a Bitcoin address</translation>
+        <source>Send coins to a Betacoin address</source>
+        <translation>Send coins to a Betacoin address</translation>
     </message>
     <message>
         <location line="+52"/>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Modify configuration options for Bitcoin</translation>
+        <source>Modify configuration options for Betacoin</source>
+        <translation>Modify configuration options for Betacoin</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -457,8 +457,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-183"/>
         <location line="+6"/>
         <location line="+530"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Betacoin</source>
+        <translation>Betacoin</translation>
     </message>
     <message>
         <location line="-536"/>
@@ -484,8 +484,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+23"/>
         <location line="+2"/>
-        <source>&amp;About Bitcoin</source>
-        <translation>&amp;About Bitcoin</translation>
+        <source>&amp;About Betacoin</source>
+        <translation>&amp;About Betacoin</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -505,13 +505,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Sign messages with your Bitcoin addresses to prove you own them</translation>
+        <source>Sign messages with your Betacoin addresses to prove you own them</source>
+        <translation>Sign messages with your Betacoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Bitcoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Betacoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Betacoin addresses</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -542,15 +542,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-5"/>
         <location line="+5"/>
-        <source>Bitcoin client</source>
-        <translation>Bitcoin client</translation>
+        <source>Betacoin client</source>
+        <translation>Betacoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+143"/>
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Betacoin network</source>
         <translation>
-            <numerusform>%n active connection to Bitcoin network</numerusform>
-            <numerusform>%n active connections to Bitcoin network</numerusform>
+            <numerusform>%n active connection to Betacoin network</numerusform>
+            <numerusform>%n active connections to Betacoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -674,8 +674,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Betacoin address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid Betacoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -689,8 +689,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. Betacoin can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. Betacoin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -755,8 +755,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Bitcoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Betacoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Betacoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -797,8 +797,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+493"/>
         <location line="+13"/>
-        <source>Bitcoin-Qt</source>
-        <translation>Bitcoin-Qt</translation>
+        <source>Betacoin-Qt</source>
+        <translation>Betacoin-Qt</translation>
     </message>
     <message>
         <location line="-13"/>
@@ -850,18 +850,18 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Bitcoin-Qt.</source>
-        <translation>Welcome to Bitcoin-Qt.</translation>
+        <source>Welcome to Betacoin-Qt.</source>
+        <translation>Welcome to Betacoin-Qt.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin-Qt will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where Bitcoin-Qt will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Betacoin-Qt will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where Betacoin-Qt will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Bitcoin-Qt will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin-Qt will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Betacoin-Qt will download and store a copy of the Betacoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Betacoin-Qt will download and store a copy of the Betacoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -913,13 +913,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Automatically start Bitcoin after logging in to the system.</translation>
+        <source>Automatically start Betacoin after logging in to the system.</source>
+        <translation>Automatically start Betacoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;Start Bitcoin on system login</translation>
+        <source>&amp;Start Betacoin on system login</source>
+        <translation>&amp;Start Betacoin on system login</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -938,8 +938,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Betacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Betacoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -948,8 +948,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
+        <source>Connect to the Betacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connect to the Betacoin network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1023,8 +1023,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Betacoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Betacoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1038,8 +1038,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>Whether to show Bitcoin addresses in the transaction list or not.</translation>
+        <source>Whether to show Betacoin addresses in the transaction list or not.</source>
+        <translation>Whether to show Betacoin addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1090,8 +1090,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation>This setting will take effect after restarting Bitcoin.</translation>
+        <source>This setting will take effect after restarting Betacoin.</source>
+        <translation>This setting will take effect after restarting Betacoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1109,8 +1109,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+202"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Betacoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Betacoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-131"/>
@@ -1173,8 +1173,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+109"/>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Cannot start bitcoin: click-to-pay handler</translation>
+        <source>Cannot start betacoin: click-to-pay handler</source>
+        <translation>Cannot start betacoin: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1182,8 +1182,8 @@ Address: %4
     <message>
         <location filename="../bitcoin.cpp" line="+92"/>
         <location filename="../intro.cpp" line="-32"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Betacoin</source>
+        <translation>Betacoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1342,8 +1342,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</translation>
+        <source>Show the Betacoin-Qt help message to get a list with possible Betacoin command-line options.</source>
+        <translation>Show the Betacoin-Qt help message to get a list with possible Betacoin command-line options.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1362,13 +1362,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Bitcoin - Debug window</source>
-        <translation>Bitcoin - Debug window</translation>
+        <source>Betacoin - Debug window</source>
+        <translation>Betacoin - Debug window</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Betacoin Core</source>
+        <translation>Betacoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1377,8 +1377,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Betacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Betacoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1387,8 +1387,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Welcome to the Bitcoin RPC console.</translation>
+        <source>Welcome to the Betacoin RPC console.</source>
+        <translation>Welcome to the Betacoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1531,8 +1531,8 @@ Address: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to send the payment to (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
+        <translation>The address to send the payment to (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1572,8 +1572,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
+        <translation>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
     </message>
 </context>
 <context>
@@ -1595,8 +1595,8 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to sign the message with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
+        <translation>The address to sign the message with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1637,8 +1637,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Sign the message to prove you own this Bitcoin address</translation>
+        <source>Sign the message to prove you own this Betacoin address</source>
+        <translation>Sign the message to prove you own this Betacoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1668,13 +1668,13 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address the message was signed with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
+        <translation>The address the message was signed with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Bitcoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Betacoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified Betacoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1689,8 +1689,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
+        <translation>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1699,8 +1699,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Bitcoin signature</source>
-        <translation>Enter Bitcoin signature</translation>
+        <source>Enter Betacoin signature</source>
+        <translation>Enter Betacoin signature</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1772,9 +1772,9 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <location filename="../splashscreen.cpp" line="+23"/>
-        <source>The Bitcoin developers</source>
-        <translation>The Bitcoin developers</translation>
+        <location filename="../splashscreen.cpp" line="+25"/>
+        <source>The Betacoin developers</source>
+        <translation>The Betacoin developers</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2326,8 +2326,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+98"/>
-        <source>Bitcoin version</source>
-        <translation>Bitcoin version</translation>
+        <source>Betacoin version</source>
+        <translation>Betacoin version</translation>
     </message>
     <message>
         <location line="+103"/>
@@ -2336,8 +2336,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or bitcoind</source>
-        <translation>Send command to -server or bitcoind</translation>
+        <source>Send command to -server or betacoind</source>
+        <translation>Send command to -server or betacoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2356,13 +2356,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Specify configuration file (default: bitcoin.conf)</translation>
+        <source>Specify configuration file (default: betacoin.conf)</source>
+        <translation>Specify configuration file (default: betacoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Specify pid file (default: bitcoind.pid)</translation>
+        <source>Specify pid file (default: betacoind.pid)</source>
+        <translation>Specify pid file (default: betacoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2439,24 +2439,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=betacoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Betacoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=betacoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Betacoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2471,8 +2471,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Betacoin is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Betacoin is probably already running.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2521,8 +2521,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Betacoin will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Betacoin will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2781,8 +2781,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</translation>
+        <source>SSL options: (see the Betacoin Wiki for SSL setup instructions)</source>
+        <translation>SSL options: (see the Betacoin Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2966,13 +2966,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Bitcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Betacoin</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Betacoin</translation>
     </message>
     <message>
         <location line="+94"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Wallet needed to be rewritten: restart Bitcoin to complete</translation>
+        <source>Wallet needed to be rewritten: restart Betacoin to complete</source>
+        <translation>Wallet needed to be rewritten: restart Betacoin to complete</translation>
     </message>
     <message>
         <location line="-96"/>
@@ -3031,8 +3031,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Bitcoin is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Betacoin is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Betacoin is probably already running.</translation>
     </message>
     <message>
         <location line="+64"/>

@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Bitcoin</source>
-        <translation>O Bitcoinu</translation>
+        <source>About Betacoin</source>
+        <translation>O Betacoinu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoin&lt;/b&gt; verze</translation>
+        <source>&lt;b&gt;Betacoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Betacoin&lt;/b&gt; verze</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The Bitcoin developers</source>
-        <translation>Vývojáři Bitcoinu</translation>
+        <source>The Betacoin developers</source>
+        <translation>Vývojáři Betacoinu</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tohle jsou tvé Bitcoinové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
+        <source>These are your Betacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tohle jsou tvé Betacoinové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem Bitcoinové adresy</translation>
+        <source>Sign a message to prove you own a Betacoin address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem Betacoinové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Bitcoinovou adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified Betacoin address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Betacoinovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tohle jsou tvé Bitcoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
+        <source>These are your Betacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tohle jsou tvé Betacoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Varování: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY BITCOINY&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BETACOINS&lt;/b&gt;!</source>
+        <translation>Varování: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY BETACOINY&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-56"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých bitcoinů malwarem, kterým se může počítač nakazit.</translation>
+        <source>Betacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your betacoins from being stolen by malware infecting your computer.</source>
+        <translation>Betacoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých betacoinů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Bitcoin</source>
-        <translation>Zobraz informace o Bitcoinu</translation>
+        <source>Show information about Betacoin</source>
+        <translation>Zobraz informace o Betacoinu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Pošli mince na Bitcoinovou adresu</translation>
+        <source>Send coins to a Betacoin address</source>
+        <translation>Pošli mince na Betacoinovou adresu</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Uprav nastavení Bitcoinu</translation>
+        <source>Modify configuration options for Betacoin</source>
+        <translation>Uprav nastavení Betacoinu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Betacoin</source>
+        <translation>Betacoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Bitcoin</source>
-        <translation>O &amp;Bitcoinu</translation>
+        <source>&amp;About Betacoin</source>
+        <translation>O &amp;Betacoinu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Podepiš zprávy svými Bitcoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
+        <source>Sign messages with your Betacoin addresses to prove you own them</source>
+        <translation>Podepiš zprávy svými Betacoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými Bitcoinovými adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Betacoin addresses</source>
+        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými Betacoinovými adresami</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+47"/>
-        <source>Bitcoin client</source>
-        <translation>Bitcoin klient</translation>
+        <source>Betacoin client</source>
+        <translation>Betacoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktivní spojení do Bitcoinové sítě</numerusform><numerusform>%n aktivní spojení do Bitcoinové sítě</numerusform><numerusform>%n aktivních spojení do Bitcoinové sítě</numerusform></translation>
+        <source>%n active connection(s) to Betacoin network</source>
+        <translation><numerusform>%n aktivní spojení do Betacoinové sítě</numerusform><numerusform>%n aktivní spojení do Betacoinové sítě</numerusform><numerusform>%n aktivních spojení do Betacoinové sítě</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adresa: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná Bitcoinová adresa nebo poškozené parametry URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Betacoin address or malformed URI parameters.</source>
+        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná Betacoinová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. Bitcoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <source>A fatal error occurred. Betacoin can no longer continue safely and will quit.</source>
+        <translation>Stala se fatální chyba. Betacoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; není platná Bitcoinová adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Betacoin address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; není platná Betacoinová adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adresa: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Bitcoin-Qt</source>
-        <translation>Bitcoin-Qt</translation>
+        <source>Betacoin-Qt</source>
+        <translation>Betacoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Automaticky spustí Bitcoin po přihlášení do systému.</translation>
+        <source>Automatically start Betacoin after logging in to the system.</source>
+        <translation>Automaticky spustí Betacoin po přihlášení do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>S&amp;pustit Bitcoin po přihlášení do systému</translation>
+        <source>&amp;Start Betacoin on system login</source>
+        <translation>S&amp;pustit Betacoin po přihlášení do systému</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,7 +844,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Betacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -854,8 +854,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Připojí se do Bitcoinové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
+        <source>Connect to the Betacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Připojí se do Betacoinové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování Bitcoinu.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Betacoin.</source>
+        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování Betacoinu.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>Zda ukazovat bitcoinové adresy ve výpisu transakcí nebo ne.</translation>
+        <source>Whether to show Betacoin addresses in the transaction list or not.</source>
+        <translation>Zda ukazovat betacoinové adresy ve výpisu transakcí nebo ne.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adresa: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation>Nastavení se projeví až po restartování Bitcoinu.</translation>
+        <source>This setting will take effect after restarting Betacoin.</source>
+        <translation>Nastavení se projeví až po restartování Betacoinu.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adresa: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s Bitcoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Betacoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s Betacoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Adresa: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Nemůžu spustit bitcoin: obsluha click-to-pay</translation>
+        <source>Cannot start betacoin: click-to-pay handler</source>
+        <translation>Nemůžu spustit betacoin: obsluha click-to-pay</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation>Seznam parametrů Bitcoinu pro příkazovou řádku získáš v nápovědě Bitcoinu Qt.</translation>
+        <source>Show the Betacoin-Qt help message to get a list with possible Betacoin command-line options.</source>
+        <translation>Seznam parametrů Betacoinu pro příkazovou řádku získáš v nápovědě Betacoinu Qt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adresa: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Bitcoin - Debug window</source>
-        <translation>Bitcoin - ladicí okno</translation>
+        <source>Betacoin - Debug window</source>
+        <translation>Betacoin - ladicí okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Bitcoin Core</source>
-        <translation>Jádro Bitcoinu</translation>
+        <source>Betacoin Core</source>
+        <translation>Jádro Betacoinu</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři soubor s ladicími záznamy Bitcoinu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
+        <source>Open the Betacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otevři soubor s ladicími záznamy Betacoinu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Vítej v Bitcoinové RPC konzoli.</translation>
+        <source>Welcome to the Betacoin RPC console.</source>
+        <translation>Vítej v Betacoinové RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1407,8 +1407,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Adresa příjemce (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to send the payment to (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
+        <translation>Adresa příjemce (např. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1448,8 +1448,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Zadej Bitcoinovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
+        <translation>Zadej Betacoinovou adresu (např. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
     </message>
 </context>
 <context>
@@ -1471,8 +1471,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Adresa, kterou se zpráva podepíše (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address to sign the message with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
+        <translation>Adresa, kterou se zpráva podepíše (např. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1513,8 +1513,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této Bitcoinové adresy</translation>
+        <source>Sign the message to prove you own this Betacoin address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této Betacoinové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1544,13 +1544,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Adresa, kterou je zpráva podepsána (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>The address the message was signed with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
+        <translation>Adresa, kterou je zpráva podepsána (např. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Bitcoinovou adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Betacoin address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Betacoinovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adresa: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Zadej Bitcoinovou adresu (např. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
+        <translation>Zadej Betacoinovou adresu (např. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Bitcoin signature</source>
-        <translation>Vlož Bitcoinový podpis</translation>
+        <source>Enter Betacoin signature</source>
+        <translation>Vlož Betacoinový podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1648,9 +1648,9 @@ Adresa: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Bitcoin developers</source>
-        <translation>Vývojáři Bitcoinu</translation>
+        <location filename="../splashscreen.cpp" line="+25"/>
+        <source>The Betacoin developers</source>
+        <translation>Vývojáři Betacoinu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Adresa: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Bitcoin version</source>
-        <translation>Verze Bitcoinu</translation>
+        <source>Betacoin version</source>
+        <translation>Verze Betacoinu</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or bitcoind</source>
-        <translation>Poslat příkaz pro -server nebo bitcoind</translation>
+        <source>Send command to -server or betacoind</source>
+        <translation>Poslat příkaz pro -server nebo betacoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Konfigurační soubor (výchozí: bitcoin.conf)</translation>
+        <source>Specify configuration file (default: betacoin.conf)</source>
+        <translation>Konfigurační soubor (výchozí: betacoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>PID soubor (výchozí: bitcoind.pid)</translation>
+        <source>Specify pid file (default: betacoind.pid)</source>
+        <translation>PID soubor (výchozí: betacoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,24 +2300,24 @@ Adresa: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=betacoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Betacoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíš nastavit rpcpassword v konfiguračním souboru:
 %s
 Je vhodné použít následující náhodné heslo:
-rpcuser=bitcoinrpc
+rpcuser=betacoinrpc
 rpcpassword=%s
 (není potřeba si ho pamatovat)
 rpcuser a rpcpassword NESMÍ být stejné.
 Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
 Je také doporučeno si nastavit alertnotify, abys byl upozorněn na případné problémy;
-například: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+například: alertnotify=echo %%s | mail -s &quot;Betacoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ například: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation>Nedaří se mi získat zámek na datový adresář %s. Bitcoin pravděpodobně už jednou běží.</translation>
+        <source>Cannot obtain a lock on data directory %s. Betacoin is probably already running.</source>
+        <translation>Nedaří se mi získat zámek na datový adresář %s. Betacoin pravděpodobně už jednou běží.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ například: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, Bitcoin nebude fungovat správně.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Betacoin will not work properly.</source>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, Betacoin nebude fungovat správně.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ například: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Možnosti SSL: (viz instrukce nastavení SSL v Bitcoin Wiki)</translation>
+        <source>SSL options: (see the Betacoin Wiki for SSL setup instructions)</source>
+        <translation>Možnosti SSL: (viz instrukce nastavení SSL v Betacoin Wiki)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ například: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Bitcoinu</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Betacoin</source>
+        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Betacoinu</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Soubor s peněženkou potřeboval přepsat: restartuj Bitcoin, aby se operace dokončila</translation>
+        <source>Wallet needed to be rewritten: restart Betacoin to complete</source>
+        <translation>Soubor s peněženkou potřeboval přepsat: restartuj Betacoin, aby se operace dokončila</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ například: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Nedaří se mi připojit na %s na tomhle počítači. Bitcoin už pravděpodobně jednou běží.</translation>
+        <source>Unable to bind to %s on this computer. Betacoin is probably already running.</source>
+        <translation>Nedaří se mi připojit na %s na tomhle počítači. Betacoin už pravděpodobně jednou běží.</translation>
     </message>
     <message>
         <location line="+64"/>
