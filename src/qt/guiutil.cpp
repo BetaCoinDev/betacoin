@@ -417,7 +417,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a bitcoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=Bitcoin\n";
+        optionFile << "Name=Betacoin\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";
@@ -489,7 +489,7 @@ bool SetStartOnSystemStartup(bool fAutoStart) { return false; }
 HelpMessageBox::HelpMessageBox(QWidget *parent) :
     QMessageBox(parent)
 {
-    header = tr("Bitcoin-Qt") + " " + tr("version") + " " +
+    header = tr("Betacoin-Qt") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
         "  bitcoin-qt [" + tr("command-line options") + "]                     " + "\n";
@@ -502,7 +502,7 @@ HelpMessageBox::HelpMessageBox(QWidget *parent) :
         "  -splash                " + tr("Show splash screen on startup (default: 1)") + "\n" +
         "  -choosedatadir         " + tr("Choose data directory on startup (default: 0)") + "\n";
 
-    setWindowTitle(tr("Bitcoin-Qt"));
+    setWindowTitle(tr("Betacoin-Qt"));
     setTextFormat(Qt::PlainText);
     // setMinimumWidth is ignored for QMessageBox so put in non-breaking spaces to make it wider.
     setText(header + QString(QChar(0x2003)).repeated(50));
