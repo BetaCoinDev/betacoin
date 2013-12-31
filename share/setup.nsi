@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.2
+!define VERSION 0.8.99
 !define COMPANY "Betacoin project"
 !define URL http://www.betacoin.org/
 
@@ -45,13 +45,13 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile betacoin-0.8.2-win32-setup.exe
+OutFile betacoin-0.8.99-win32-setup.exe
 InstallDir $PROGRAMFILES\Betacoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 0.8.2.2
+VIProductVersion 0.8.99.5
 VIAddVersionKey ProductName Betacoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
