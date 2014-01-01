@@ -1237,25 +1237,54 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
     return pblock->GetHash();
 }
 
+static const int64 nStartSubsidy = 128 * COIN;
+static const int64 nMinSubsidy = 1 * COIN;
+
 int64 GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 50 * COIN;
+    int64 nSubsidy = nStartSubsidy;
 
-    // Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.
+    // Mining phase: Subsidy is cut in half every SubsidyHalvingInterval
     nSubsidy >>= (nHeight / Params().SubsidyHalvingInterval());
+
+    // Inflation phase: Subsidy reaches minimum subsidy
+    // Network is rewarded for transaction processing with transaction fees and
+    // the inflationary subsidy
+    if (nSubsidy < nMinSubsidy)
+    {
+        nSubsidy = nMinSubsidy;
+    }
 
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 14 * 24 * 60 * 60; // two weeks
-static const int64 nTargetSpacing = 10 * 60;
-static const int64 nInterval = nTargetTimespan / nTargetSpacing;
+static const int64 nTargetTimespan = 24 * 60; // 24
+static const int64 nTargetSpacing = 4 * 60; // 4
+static const int64 nInterval = nTargetTimespan / nTargetSpacing; // 6
+
+static const int64 nHeightVer2 = 16000;
+static unsigned int nCheckpointTimeVer2 = 1380608826;
+
+static const int64 nAveragingInterval1 = nInterval * 256; //
+static const int64 nAveragingTargetTimespan1 = nAveragingInterval1 * nTargetSpacing; //
+
+static const int64 nAveragingInterval2 = nInterval * 8; //
+static const int64 nAveragingTargetTimespan2 = nAveragingInterval2 * nTargetSpacing; //
+
+static const int64 nMaxAdjustDown1 = 10; // 10% adjustment down
+static const int64 nMaxAdjustUp1 = 2; // 1% adjustment up
+
+static const int64 nMaxAdjustDown2 = 2; // 2% adjustment down
+static const int64 nMaxAdjustUp2 = 1; // 1% adjustment up
+
+static const int64 nTargetTimespanAdjDown1 = nTargetTimespan * (100 + nMaxAdjustDown1) / 100;
+static const int64 nTargetTimespanAdjDown2 = nTargetTimespan * (100 + nMaxAdjustDown2) / 100;
 
 //
 // minimum amount of work that could possibly be required nTime after
 // minimum work required was nBase
 //
-unsigned int ComputeMinWork(unsigned int nBase, int64 nTime)
+unsigned int ComputeMinWork(unsigned int nBase, int64 nTime, int64 nCheckpointTime, int64 nBlockTime)
 {
     const CBigNum &bnLimit = Params().ProofOfWorkLimit();
     // Testnet has min-difficulty blocks
@@ -1263,19 +1292,40 @@ unsigned int ComputeMinWork(unsigned int nBase, int64 nTime)
     if (TestNet() && nTime > nTargetSpacing*2)
         return bnLimit.GetCompact();
 
+    int64 nMaxAdjustDown;
+    int64 nTargetTimespanAdjDown;
+
+    if ( (nBlockTime >= nCheckpointTimeVer2) && (nCheckpointTime >= nCheckpointTimeVer2) )
+    {
+        nMaxAdjustDown = nMaxAdjustDown2;
+        nTargetTimespanAdjDown = nTargetTimespanAdjDown2;
+    }
+    else
+    {
+        nMaxAdjustDown = nMaxAdjustDown1;
+        nTargetTimespanAdjDown = nTargetTimespanAdjDown1;
+    }
+
     CBigNum bnResult;
     bnResult.SetCompact(nBase);
     while (nTime > 0 && bnResult < bnLimit)
     {
-        // Maximum 400% adjustment...
-        bnResult *= 4;
-        // ... in best-case exactly 4-times-normal target time
-        nTime -= nTargetTimespan*4;
+        // Maximum adjustment...
+        bnResult *= (100 + nMaxAdjustDown);
+        bnResult /= 100;
+        // ... in best-case exactly adjustment times-normal target time
+        nTime -= nTargetTimespanAdjDown;
     }
     if (bnResult > bnLimit)
         bnResult = bnLimit;
     return bnResult.GetCompact();
 }
+
+static const int64 nMinActualTimespan1 = nAveragingTargetTimespan1 * (100 - nMaxAdjustUp1) / 100;
+static const int64 nMaxActualTimespan1 = nAveragingTargetTimespan1 * (100 + nMaxAdjustDown1) / 100;
+
+static const int64 nMinActualTimespan2 = nAveragingTargetTimespan2 * (100 - nMaxAdjustUp2) / 100;
+static const int64 nMaxActualTimespan2 = nAveragingTargetTimespan2 * (100 + nMaxAdjustDown2) / 100;
 
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
 {
@@ -1284,6 +1334,29 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     // Genesis block
     if (pindexLast == NULL)
         return nProofOfWorkLimit;
+
+    if (pindexLast->nHeight+1 < nAveragingInterval1)
+        return nProofOfWorkLimit;
+
+    int64 nAveragingInterval;
+    int64 nMinActualTimespan;
+    int64 nMaxActualTimespan;
+    int64 nAveragingTargetTimespan;
+
+    if (pindexLast->nHeight+1 >= nHeightVer2)
+    {
+        nAveragingInterval = nAveragingInterval2;
+        nMinActualTimespan = nMinActualTimespan2;
+        nMaxActualTimespan = nMaxActualTimespan2;
+        nAveragingTargetTimespan = nAveragingTargetTimespan2;
+    }
+    else
+    {
+        nAveragingInterval = nAveragingInterval1;
+        nMinActualTimespan = nMinActualTimespan1;
+        nMaxActualTimespan = nMaxActualTimespan1;
+        nAveragingTargetTimespan = nAveragingTargetTimespan1;
+    }
 
     // Only change once per interval
     if ((pindexLast->nHeight+1) % nInterval != 0)
@@ -1307,32 +1380,32 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
         return pindexLast->nBits;
     }
 
-    // Go back by what we want to be 14 days worth of blocks
+    // Go back by what we want to be nAveragingInterval blocks
     const CBlockIndex* pindexFirst = pindexLast;
-    for (int i = 0; pindexFirst && i < nInterval-1; i++)
+    for (int i = 0; pindexFirst && i < nAveragingInterval-1; i++)
         pindexFirst = pindexFirst->pprev;
     assert(pindexFirst);
 
     // Limit adjustment step
     int64 nActualTimespan = pindexLast->GetBlockTime() - pindexFirst->GetBlockTime();
     printf("  nActualTimespan = %"PRI64d"  before bounds\n", nActualTimespan);
-    if (nActualTimespan < nTargetTimespan/4)
-        nActualTimespan = nTargetTimespan/4;
-    if (nActualTimespan > nTargetTimespan*4)
-        nActualTimespan = nTargetTimespan*4;
+    if (nActualTimespan < nMinActualTimespan)
+        nActualTimespan = nMinActualTimespan;
+    if (nActualTimespan > nMaxActualTimespan)
+        nActualTimespan = nMaxActualTimespan;
 
     // Retarget
     CBigNum bnNew;
     bnNew.SetCompact(pindexLast->nBits);
     bnNew *= nActualTimespan;
-    bnNew /= nTargetTimespan;
+    bnNew /= nAveragingTargetTimespan;
 
     if (bnNew > Params().ProofOfWorkLimit())
         bnNew = Params().ProofOfWorkLimit();
 
     /// debug print
     printf("GetNextWorkRequired RETARGET\n");
-    printf("nTargetTimespan = %"PRI64d"    nActualTimespan = %"PRI64d"\n", nTargetTimespan, nActualTimespan);
+    printf("nTargetTimespan = %"PRI64d"    nActualTimespan = %"PRI64d"\n", nAveragingTargetTimespan, nActualTimespan);
     printf("Before: %08x  %s\n", pindexLast->nBits, CBigNum().SetCompact(pindexLast->nBits).getuint256().ToString().c_str());
     printf("After:  %08x  %s\n", bnNew.GetCompact(), bnNew.getuint256().ToString().c_str());
 
@@ -1772,15 +1845,10 @@ bool ConnectBlock(CBlock& block, CValidationState& state, CBlockIndex* pindex, C
     // Now that the whole chain is irreversibly beyond that time it is applied to all blocks except the
     // two in the chain that violate it. This prevents exploiting the issue against nodes in their
     // initial block download.
-    bool fEnforceBIP30 = (!pindex->phashBlock) || // Enforce on CreateNewBlock invocations which don't have a hash.
-                          !((pindex->nHeight==91842 && pindex->GetBlockHash() == uint256("0x00000000000a4d0a398161ffc163c503763b1f4360639393e0e4c8e300e0caec")) ||
-                           (pindex->nHeight==91880 && pindex->GetBlockHash() == uint256("0x00000000000743f190a18c5577a3c2d2a1f610ae9601ac046a38084ccb7cd721")));
-    if (fEnforceBIP30) {
-        for (unsigned int i = 0; i < block.vtx.size(); i++) {
-            uint256 hash = block.GetTxHash(i);
-            if (view.HaveCoins(hash) && !view.GetCoins(hash).IsPruned())
-                return state.DoS(100, error("ConnectBlock() : tried to overwrite transaction"));
-        }
+    for (unsigned int i = 0; i < block.vtx.size(); i++) {
+        uint256 hash = block.GetTxHash(i);
+        if (view.HaveCoins(hash) && !view.GetCoins(hash).IsPruned())
+            return state.DoS(100, error("ConnectBlock() : tried to overwrite transaction"));
     }
 
     // BIP16 didn't become active until Apr 1 2012
@@ -2405,7 +2473,7 @@ bool ProcessBlock(CValidationState &state, CNode* pfrom, CBlock* pblock, CDiskBl
         CBigNum bnNewBlock;
         bnNewBlock.SetCompact(pblock->nBits);
         CBigNum bnRequired;
-        bnRequired.SetCompact(ComputeMinWork(pcheckpoint->nBits, deltaTime));
+        bnRequired.SetCompact(ComputeMinWork(pcheckpoint->nBits, deltaTime, pcheckpoint->nTime, pblock->GetBlockTime()));
         if (bnNewBlock > bnRequired)
         {
             return state.DoS(100, error("ProcessBlock() : block with too little proof-of-work"));
