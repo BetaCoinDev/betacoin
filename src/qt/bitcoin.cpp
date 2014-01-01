@@ -173,12 +173,12 @@ int main(int argc, char *argv[])
 
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
-    QApplication::setOrganizationName("Bitcoin");
-    QApplication::setOrganizationDomain("bitcoin.org");
+    QApplication::setOrganizationName("Betacoin");
+    QApplication::setOrganizationDomain("betacoin.org");
     if (GetBoolArg("-testnet", false)) // Separate UI settings for testnet
-        QApplication::setApplicationName("Bitcoin-Qt-testnet");
+        QApplication::setApplicationName("Betacoin-Qt-testnet");
     else
-        QApplication::setApplicationName("Bitcoin-Qt");
+        QApplication::setApplicationName("Betacoin-Qt");
 
     // Now that QSettings are accessible, initialize translations
     QTranslator qtTranslatorBase, qtTranslator, translatorBase, translator;
