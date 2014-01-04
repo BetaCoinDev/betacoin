@@ -54,6 +54,8 @@ static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20
 static const int MAX_SCRIPTCHECK_THREADS = 16;
 /** Default amount of block size reserved for high-priority transactions (in bytes) */
 static const int DEFAULT_BLOCK_PRIORITY_SIZE = 27000;
+/** Tx comments */
+static const unsigned int MAX_TX_COMMENT_LEN = 240;
 #ifdef USE_UPNP
 static const int fHaveUPnP = true;
 #else
