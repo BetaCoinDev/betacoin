@@ -543,7 +543,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <location line="+141"/>
         <source>%n active connection(s) to Betacoin network</source>
-        <translation><numerusform>%n ενεργή σύνδεση στο δίκτυο Betacoin</numerusform><numerusform>%n ενεργές συνδέσεις στο δίκτυο Βitcoin</numerusform></translation>
+        <translation><numerusform>%n ενεργή σύνδεση στο δίκτυο Betacoin</numerusform><numerusform>%n ενεργές συνδέσεις στο δίκτυο Βetacoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
