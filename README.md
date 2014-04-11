@@ -1,8 +1,8 @@
 Betacoin integration/staging tree
 ==================================
 
-Copyright (c) 2009-2013 Bitcoin Developers,
-Copyright (c) 2013 Betacoin Developers
+Copyright (c) 2009-2014 Bitcoin Developers,
+Copyright (c) 2014 Betacoin Developers
 
 What is Betacoin?
 -----------------
