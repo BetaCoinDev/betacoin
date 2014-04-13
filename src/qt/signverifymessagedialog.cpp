@@ -24,10 +24,10 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a Betacoin address (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a Betacoin address (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)"));
     ui->signatureIn_VM->setPlaceholderText(tr("Enter Betacoin signature"));
 #endif
 

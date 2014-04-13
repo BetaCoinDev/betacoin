@@ -1406,8 +1406,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
-        <translation>Tehingu saaja aadress (nt: JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
+        <source>The address to send the payment to (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</source>
+        <translation>Tehingu saaja aadress (nt: BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1447,8 +1447,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
-        <translation>Sisesta Betacoini aadress (nt: JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
+        <source>Enter a Betacoin address (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</source>
+        <translation>Sisesta Betacoini aadress (nt: BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</translation>
     </message>
 </context>
 <context>
@@ -1470,8 +1470,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
-        <translation>Sõnumi signeerimise aadress (nt: JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
+        <source>The address to sign the message with (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</source>
+        <translation>Sõnumi signeerimise aadress (nt: BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1543,8 +1543,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
-        <translation>Aadress, millega sõnum allkirjastati (nt: JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
+        <source>The address the message was signed with (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</source>
+        <translation>Aadress, millega sõnum allkirjastati (nt: BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1564,8 +1564,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
-        <translation>Sisesta Betacoini aadress (nt: JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
+        <source>Enter a Betacoin address (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</source>
+        <translation>Sisesta Betacoini aadress (nt: BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</translation>
     </message>
     <message>
         <location line="-2"/>

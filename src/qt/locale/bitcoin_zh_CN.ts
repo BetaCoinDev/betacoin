@@ -5,12 +5,12 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Betacoin</source>
-        <translation>关于比特币</translation>
+        <translation>关于公测币</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Betacoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;比特币&lt;/b&gt;版本</translation>
+        <translation>&lt;b&gt;公测币&lt;/b&gt;版本</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -68,7 +68,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Betacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>这是您用来收款的比特币地址。为了标记不同的资金来源，建议为每个付款人保留不同的收款地址。</translation>
+        <translation>这是您用来收款的公测币地址。为了标记不同的资金来源，建议为每个付款人保留不同的收款地址。</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -108,7 +108,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-44"/>
         <source>Verify a message to ensure it was signed with a specified Betacoin address</source>
-        <translation>验证消息，确保消息是由指定的比特币地址签名过的。</translation>
+        <translation>验证消息，确保消息是由指定的公测币地址签名过的。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -123,7 +123,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your Betacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>这是您用来付款的比特币地址。在付款前，请总是核实付款金额和收款地址。</translation>
+        <translation>这是您用来付款的公测币地址。在付款前，请总是核实付款金额和收款地址。</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -249,7 +249,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BETACOINS&lt;/b&gt;!</source>
-        <translation>警告：如果您加密了您的钱包，但是忘记了密码，你将会&lt;b&gt;丢失所有的比特币&lt;/b&gt;！</translation>
+        <translation>警告：如果您加密了您的钱包，但是忘记了密码，你将会&lt;b&gt;丢失所有的公测币&lt;/b&gt;！</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -276,7 +276,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-56"/>
         <source>Betacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your betacoins from being stolen by malware infecting your computer.</source>
-        <translation>将关闭软件以完成加密过程。 请您谨记：钱包加密并不是万能的，电脑中毒，您的比特币还是有可能丢失。</translation>
+        <translation>将关闭软件以完成加密过程。 请您谨记：钱包加密并不是万能的，电脑中毒，您的公测币还是有可能丢失。</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -375,7 +375,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+4"/>
         <source>Show information about Betacoin</source>
-        <translation>显示比特币的相关信息</translation>
+        <translation>显示公测币的相关信息</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,7 +420,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-347"/>
         <source>Send coins to a Betacoin address</source>
-        <translation>向一个比特币地址发送比特币</translation>
+        <translation>向一个公测币地址发送公测币</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -456,7 +456,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-165"/>
         <location line="+530"/>
         <source>Betacoin</source>
-        <translation>比特币</translation>
+        <translation>公测币</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -481,7 +481,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+22"/>
         <source>&amp;About Betacoin</source>
-        <translation>&amp;关于比特币</translation>
+        <translation>&amp;关于公测币</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -501,12 +501,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+7"/>
         <source>Sign messages with your Betacoin addresses to prove you own them</source>
-        <translation>用比特币地址关联的私钥为消息签名，以证明您拥有这个比特币地址</translation>
+        <translation>用公测币地址关联的私钥为消息签名，以证明您拥有这个公测币地址</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Betacoin addresses</source>
-        <translation>校验消息，确保该消息是由指定的比特币地址所有者签名的</translation>
+        <translation>校验消息，确保该消息是由指定的公测币地址所有者签名的</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -537,12 +537,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+47"/>
         <source>Betacoin client</source>
-        <translation>比特币客户端</translation>
+        <translation>公测币客户端</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
         <source>%n active connection(s) to Betacoin network</source>
-        <translation><numerusform>到比特币网络的连接共有%n条</numerusform></translation>
+        <translation><numerusform>到公测币网络的连接共有%n条</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -607,7 +607,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+70"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>该交易的字节数超标。您可以选择支付%1的交易费给处理您的交易的网络节点，有助于比特币网络的运行。您愿意支付这笔交易费用吗？</translation>
+        <translation>该交易的字节数超标。您可以选择支付%1的交易费给处理您的交易的网络节点，有助于公测币网络的运行。您愿意支付这笔交易费用吗？</translation>
     </message>
     <message>
         <location line="-140"/>
@@ -657,7 +657,7 @@ Address: %4
         <location line="-23"/>
         <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid Betacoin address or malformed URI parameters.</source>
-        <translation>URI无法解析！原因可能是比特币地址不正确，或者URI参数错误。</translation>
+        <translation>URI无法解析！原因可能是公测币地址不正确，或者URI参数错误。</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -738,7 +738,7 @@ Address: %4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Betacoin address.</source>
-        <translation>您输入的 &quot;%1&quot; 不是合法的比特币地址.</translation>
+        <translation>您输入的 &quot;%1&quot; 不是合法的公测币地址.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -821,7 +821,7 @@ Address: %4
     <message>
         <location line="+31"/>
         <source>Automatically start Betacoin after logging in to the system.</source>
-        <translation>登录系统后自动开启比特币客户端</translation>
+        <translation>登录系统后自动开启公测币客户端</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -846,7 +846,7 @@ Address: %4
     <message>
         <location line="+6"/>
         <source>Automatically open the Betacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动在路由器中打开比特币端口。只有当您的路由器开启 UPnP 选项时此功能才有效。</translation>
+        <translation>自动在路由器中打开公测币端口。只有当您的路由器开启 UPnP 选项时此功能才有效。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -856,7 +856,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Connect to the Betacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>通过代理服务器连接比特币网络(例如：通过Tor连接)</translation>
+        <translation>通过代理服务器连接公测币网络(例如：通过Tor连接)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -936,22 +936,22 @@ Address: %4
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;比特币金额单位:</translation>
+        <translation>&amp;公测币金额单位:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择比特币单位。</translation>
+        <translation>选择公测币单位。</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Whether to show Betacoin addresses in the transaction list or not.</source>
-        <translation>是否需要在交易清单中显示比特币地址。</translation>
+        <translation>是否需要在交易清单中显示公测币地址。</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>在交易清单中&amp;显示比特币地址</translation>
+        <translation>在交易清单中&amp;显示公测币地址</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1017,7 +1017,7 @@ Address: %4
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Betacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>现在显示的消息可能是过期的. 在连接上比特币网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成.</translation>
+        <translation>现在显示的消息可能是过期的. 在连接上公测币网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1071,7 +1071,7 @@ Address: %4
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start betacoin: click-to-pay handler</source>
-        <translation>暂时无法启动比特币：点击支付功能</translation>
+        <translation>暂时无法启动公测币：点击支付功能</translation>
     </message>
 </context>
 <context>
@@ -1186,7 +1186,7 @@ Address: %4
     <message>
         <location line="+23"/>
         <source>On testnet</source>
-        <translation>当前为比特币测试网络</translation>
+        <translation>当前为公测币测试网络</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -1241,12 +1241,12 @@ Address: %4
     <message>
         <location line="-104"/>
         <source>Betacoin - Debug window</source>
-        <translation>比特币 - 调试窗口</translation>
+        <translation>公测币 - 调试窗口</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Betacoin Core</source>
-        <translation>比特币核心</translation>
+        <translation>公测币核心</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1386,7 +1386,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>错误: 交易被拒绝. 如果您使用的是备份钱包，可能存在两个钱包不同步的情况，另一个钱包中的比特币已经被使用，但本地的这个钱包尚没有记录。</translation>
+        <translation>错误: 交易被拒绝. 如果您使用的是备份钱包，可能存在两个钱包不同步的情况，另一个钱包中的公测币已经被使用，但本地的这个钱包尚没有记录。</translation>
     </message>
 </context>
 <context>
@@ -1408,8 +1408,8 @@ Address: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
-        <translation>付款给这个地址  (例如 JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
+        <source>The address to send the payment to (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</source>
+        <translation>付款给这个地址  (例如 BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1449,8 +1449,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
-        <translation>请输入比特币地址 (例如: JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
+        <source>Enter a Betacoin address (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</source>
+        <translation>请输入公测币地址 (例如: BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</translation>
     </message>
 </context>
 <context>
@@ -1472,8 +1472,8 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
-        <translation>用于签名消息的地址(例如: JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
+        <source>The address to sign the message with (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</source>
+        <translation>用于签名消息的地址(例如: BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1545,13 +1545,13 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
-        <translation>用于签名消息的地址(例如: JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
+        <source>The address the message was signed with (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</source>
+        <translation>用于签名消息的地址(例如: BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Betacoin address</source>
-        <translation>验证消息，确保消息是由指定的比特币地址签名过的。</translation>
+        <translation>验证消息，确保消息是由指定的公测币地址签名过的。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1566,8 +1566,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
-        <translation>请输入比特币地址 (例如: JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
+        <source>Enter a Betacoin address (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</source>
+        <translation>请输入公测币地址 (例如: BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1577,7 +1577,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Enter Betacoin signature</source>
-        <translation>输入比特币签名</translation>
+        <translation>输入公测币签名</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1785,7 +1785,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>新挖出的比特币必须等确120个确认才能使用。您生产出的数据块，将被广播到全网并添加到数据块链。如果入链失败，状态将变为“未被接受”，意味着您的数据块竞争失败，挖出的比特币将不能使用。当某个节点先于你几秒生产出新的数据块，这种情况会偶尔发生。</translation>
+        <translation>新挖出的公测币必须等确120个确认才能使用。您生产出的数据块，将被广播到全网并添加到数据块链。如果入链失败，状态将变为“未被接受”，意味着您的数据块竞争失败，挖出的公测币将不能使用。当某个节点先于你几秒生产出新的数据块，这种情况会偶尔发生。</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1946,7 +1946,7 @@ Address: %4
     <message>
         <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>接收比特币的时间</translation>
+        <translation>接收公测币的时间</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2138,7 +2138,7 @@ Address: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>发送比特币</translation>
+        <translation>发送公测币</translation>
     </message>
 </context>
 <context>
@@ -2189,7 +2189,7 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>Betacoin version</source>
-        <translation>比特币版本</translation>
+        <translation>公测币版本</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2350,7 +2350,7 @@ rpcpassword=%s
     <message>
         <location line="+3"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的比特币已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了比特币，但是这个钱包文件中没有记录。</translation>
+        <translation>错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的公测币已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了公测币，但是这个钱包文件中没有记录。</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2390,7 +2390,7 @@ rpcpassword=%s
     <message>
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Betacoin will not work properly.</source>
-        <translation>警告：请检查电脑的日期时间设置是否正确！时间错误可能会导致比特币客户端运行异常。</translation>
+        <translation>警告：请检查电脑的日期时间设置是否正确！时间错误可能会导致公测币客户端运行异常。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2905,7 +2905,7 @@ rpcpassword=%s
     <message>
         <location line="-25"/>
         <source>Unable to bind to %s on this computer. Betacoin is probably already running.</source>
-        <translation>无法在本机绑定 %s 端口 . 比特币客户端软件可能已经在运行.</translation>
+        <translation>无法在本机绑定 %s 端口 . 公测币客户端软件可能已经在运行.</translation>
     </message>
     <message>
         <location line="+64"/>

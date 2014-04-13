@@ -1531,8 +1531,8 @@ Address: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
-        <translation>The address to send the payment to (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
+        <source>The address to send the payment to (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</source>
+        <translation>The address to send the payment to (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1572,8 +1572,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
-        <translation>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
+        <source>Enter a Betacoin address (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</source>
+        <translation>Enter a Betacoin address (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</translation>
     </message>
 </context>
 <context>
@@ -1595,8 +1595,8 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
-        <translation>The address to sign the message with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
+        <source>The address to sign the message with (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</source>
+        <translation>The address to sign the message with (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1668,8 +1668,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
-        <translation>The address the message was signed with (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
+        <source>The address the message was signed with (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</source>
+        <translation>The address the message was signed with (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1689,8 +1689,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</source>
-        <translation>Enter a Betacoin address (e.g. JUx4HMYEGAj2npGUQZW4tntt8eC73c6376)</translation>
+        <source>Enter a Betacoin address (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</source>
+        <translation>Enter a Betacoin address (e.g. BN8LdvNNeipB8wiQ5Ua2fZvjQGYRN8tmdb)</translation>
     </message>
     <message>
         <location line="-2"/>
