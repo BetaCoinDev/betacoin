@@ -146,8 +146,9 @@ void WalletView::incomingTransaction(const QModelIndex& parent, int start, int /
     qint64 amount = ttm->index(start, TransactionTableModel::Amount, parent).data(Qt::EditRole).toULongLong();
     QString type = ttm->index(start, TransactionTableModel::Type, parent).data().toString();
     QString address = ttm->index(start, TransactionTableModel::ToAddress, parent).data().toString();
+    QString txcomment = ttm->index(start, TransactionTableModel::TxComment, parent).data().toString();
 
-    gui->incomingTransaction(date, walletModel->getOptionsModel()->getDisplayUnit(), amount, type, address);
+    gui->incomingTransaction(date, walletModel->getOptionsModel()->getDisplayUnit(), amount, type, address, txcomment);
 }
 
 void WalletView::gotoOverviewPage()

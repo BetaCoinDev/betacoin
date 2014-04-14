@@ -24,7 +24,7 @@ static int column_alignments[] = {
         Qt::AlignLeft|Qt::AlignVCenter,
         Qt::AlignLeft|Qt::AlignVCenter,
         Qt::AlignLeft|Qt::AlignVCenter,
-        Qt::AlignRight|Qt::AlignVCenter
+        Qt::AlignLeft|Qt::AlignVCenter,
     };
 
 // Comparison operator for sort/binary search of model tx list
@@ -222,7 +222,7 @@ TransactionTableModel::TransactionTableModel(CWallet* wallet, WalletModel *paren
         priv(new TransactionTablePriv(wallet, this)),
         cachedNumBlocks(0)
 {
-    columns << QString() << tr("Date") << tr("Type") << tr("Address") << tr("Amount");
+    columns << QString() << tr("Date") << tr("Type") << tr("Address") << tr("Amount") << tr("Comment");
 
     priv->refreshWallet();
 
@@ -401,6 +401,27 @@ QString TransactionTableModel::formatTxToAddress(const TransactionRecord *wtx, b
     }
 }
 
+QString TransactionTableModel::formatTxComment(const TransactionRecord *wtx, bool tooltip) const
+{
+    switch(wtx->type)
+    {
+     case TransactionRecord::RecvFromOther:
+        return QString::fromStdString(wtx->txcomment);
+    case TransactionRecord::RecvWithAddress:
+        return QString::fromStdString(wtx->txcomment);
+    case TransactionRecord::SendToAddress:
+        return QString::fromStdString(wtx->txcomment);
+    case TransactionRecord::SendToOther:
+        return QString::fromStdString(wtx->txcomment);
+    case TransactionRecord::SendToSelf:
+        return QString::fromStdString(wtx->txcomment);
+    case TransactionRecord::Generated:
+        return "";
+    default:
+        return tr("(n/a)");
+    }
+}
+
 QVariant TransactionTableModel::addressColor(const TransactionRecord *wtx) const
 {
     // Show addresses without label in a less visible color
@@ -487,6 +508,10 @@ QString TransactionTableModel::formatTooltip(const TransactionRecord *rec) const
        rec->type==TransactionRecord::SendToAddress || rec->type==TransactionRecord::RecvWithAddress)
     {
         tooltip += QString(" ") + formatTxToAddress(rec, true);
+        if (rec->txcomment.length() > 0)
+       {
+           tooltip += QString("\n") + formatTxComment(rec, true);
+        }
     }
     return tooltip;
 }
@@ -519,6 +544,8 @@ QVariant TransactionTableModel::data(const QModelIndex &index, int role) const
             return formatTxToAddress(rec, false);
         case Amount:
             return formatTxAmount(rec);
+         case TxComment:
+            return formatTxComment(rec, false);
         }
         break;
     case Qt::EditRole:
@@ -535,6 +562,8 @@ QVariant TransactionTableModel::data(const QModelIndex &index, int role) const
             return formatTxToAddress(rec, true);
         case Amount:
             return rec->credit + rec->debit;
+        case TxComment:
+            return formatTxComment(rec, false);
         }
         break;
     case Qt::ToolTipRole:
@@ -605,6 +634,8 @@ QVariant TransactionTableModel::headerData(int section, Qt::Orientation orientat
                 return tr("Destination address of transaction.");
             case Amount:
                 return tr("Amount removed from or added to balance.");
+            case TxComment:
+                return tr("Transaction comment.");
             }
         }
     }

@@ -702,8 +702,11 @@ void BitcoinGUI::askFee(qint64 nFeeRequired, bool *payFee)
     *payFee = (retval == QMessageBox::Yes);
 }
 
-void BitcoinGUI::incomingTransaction(const QString& date, int unit, qint64 amount, const QString& type, const QString& address)
+void BitcoinGUI::incomingTransaction(const QString& date, int unit, qint64 amount, const QString& type, const QString& address, const QString& txcomment)
 {
+
+    
+        
     // On new transaction, make an info balloon
     message((amount)<0 ? tr("Sent transaction") : tr("Incoming transaction"),
              tr("Date: %1\n"
@@ -713,7 +716,7 @@ void BitcoinGUI::incomingTransaction(const QString& date, int unit, qint64 amoun
                   .arg(date)
                   .arg(BitcoinUnits::formatWithUnit(unit, amount, true))
                   .arg(type)
-                  .arg(address), CClientUIInterface::MSG_INFORMATION);
+                  .arg(address + (txcomment.length() > 0 ? ("\n" + txcomment) : "") ), CClientUIInterface::MSG_INFORMATION);
 }
 
 void BitcoinGUI::dragEnterEvent(QDragEnterEvent *event)
