@@ -35,13 +35,15 @@ public:
         QRect decorationRect(mainRect.topLeft(), QSize(DECORATION_SIZE, DECORATION_SIZE));
         int xspace = DECORATION_SIZE + 8;
         int ypad = 6;
-        int halfheight = (mainRect.height() - 2*ypad)/2;
+        int halfheight = (mainRect.height() - 2*ypad)/3;
         QRect amountRect(mainRect.left() + xspace, mainRect.top()+ypad, mainRect.width() - xspace, halfheight);
         QRect addressRect(mainRect.left() + xspace, mainRect.top()+ypad+halfheight, mainRect.width() - xspace, halfheight);
+        QRect txcommentRect(mainRect.left() + xspace, mainRect.top()+ypad+halfheight+halfheight, mainRect.width() - xspace, halfheight*4);
         icon.paint(painter, decorationRect);
 
         QDateTime date = index.data(TransactionTableModel::DateRole).toDateTime();
         QString address = index.data(Qt::DisplayRole).toString();
+        QString txcomment = index.data(TransactionTableModel::TxCommentRole).toString();
         qint64 amount = index.data(TransactionTableModel::AmountRole).toLongLong();
         bool confirmed = index.data(TransactionTableModel::ConfirmedRole).toBool();
         QVariant value = index.data(Qt::ForegroundRole);
@@ -51,7 +53,18 @@ public:
             QBrush brush = qvariant_cast<QBrush>(value);
             foreground = brush.color();
         }
+       
+        for(int i=0;i<txcomment.size();i++)
+        {
+            if((i%62==0.0) && (i!=0))
+            {
+                txcomment.insert(i,"\n");
+            }
+        }
 
+        painter->setPen(foreground);
+        painter->drawText(txcommentRect, Qt::AlignLeft|Qt::AlignJustify, txcomment);
+       
         painter->setPen(foreground);
         painter->drawText(addressRect, Qt::AlignLeft|Qt::AlignVCenter, address);
 

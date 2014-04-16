@@ -24,8 +24,8 @@ public:
         Date = 1,
         Type = 2,
         ToAddress = 3,
-        Amount = 4,
-        TxComment = 5
+        TxComment = 4,
+        Amount = 5
     };
 
     /** Roles to get specific information from a transaction row.
@@ -45,6 +45,8 @@ public:
         /** Net amount of transaction */
         AmountRole,
         /** Unique identifier */
+        TxCommentRole,
+        /** Tx Comment */
         TxIDRole,
         /** Is transaction confirmed? */
         ConfirmedRole,

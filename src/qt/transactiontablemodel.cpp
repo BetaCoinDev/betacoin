@@ -222,7 +222,7 @@ TransactionTableModel::TransactionTableModel(CWallet* wallet, WalletModel *paren
         priv(new TransactionTablePriv(wallet, this)),
         cachedNumBlocks(0)
 {
-    columns << QString() << tr("Date") << tr("Type") << tr("Address") << tr("Amount") << tr("Comment");
+    columns << QString() << tr("Date") << tr("Type") << tr("Address") << tr("Comment") << tr("Amount");
 
     priv->refreshWallet();
 
@@ -255,7 +255,7 @@ void TransactionTableModel::updateConfirmations()
         // Invalidate status (number of confirmations) and (possibly) description
         //  for all rows. Qt is smart enough to only actually request the data for the
         //  visible rows.
-        emit dataChanged(index(0, Status), index(priv->size()-1, Status));
+        emit dataChanged(index(0, Status), index(priv->size()-6, Status));
         emit dataChanged(index(0, ToAddress), index(priv->size()-1, ToAddress));
     }
 }
@@ -593,6 +593,8 @@ QVariant TransactionTableModel::data(const QModelIndex &index, int role) const
         return priv->describe(rec);
     case AddressRole:
         return QString::fromStdString(rec->address);
+    case TxCommentRole:
+        return QString::fromStdString(rec->txcomment);
     case LabelRole:
         return walletModel->getAddressTableModel()->labelForAddress(QString::fromStdString(rec->address));
     case AmountRole:
